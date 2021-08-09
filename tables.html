@@ -36,7 +36,6 @@
   <body id="page-top">
     <!-- Page Wrapper -->
     <div id="wrapper">
-      <!-- Sidebar -->
       <ul
         class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion"
         id="accordionSidebar"
@@ -49,11 +48,8 @@
           <div class="sidebar-brand-icon rotate-n-15">
             <i class="fas fa-laugh-wink"></i>
           </div>
-          <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+          <div class="sidebar-brand-text mx-3">Admin <sup>2</sup></div>
         </a>
-
-        <!-- Divider -->
-        <hr class="sidebar-divider my-0" />
 
         <!-- Nav Item - Dashboard -->
         <li class="nav-item">
@@ -69,7 +65,7 @@
         <!-- Nav Item - Pages Collapse Menu -->
         <li class="nav-item">
           <a
-            class="nav-link collapsed"
+            class="nav-link"
             href="#"
             data-toggle="collapse"
             data-target="#collapseTwo"
@@ -86,15 +82,17 @@
             data-parent="#accordionSidebar"
           >
             <div class="bg-white py-2 collapse-inner rounded">
-              <a class="collapse-item" href="register.html">Add Complaints</a>
-              <a class="collapse-item" href="cards.html">View Complaints</a>
+              <a class="collapse-item" href="register.html">Add Complaint</a>
+              <a class="collapse-item active" href="cards.html"
+                >View Complaints</a
+              >
             </div>
           </div>
         </li>
 
         <!-- Nav Item - Tables -->
 
-        <li class="nav-item">
+        <li class="nav-item active">
           <a
             class="nav-link collapsed"
             href="#"
@@ -108,7 +106,7 @@
           </a>
           <div
             id="collapseTwo"
-            class="collapse"
+            class="collapse show"
             aria-labelledby="headingTwo"
             data-parent="#accordionSidebar"
           >
@@ -453,30 +451,25 @@
               </div>
               <div class="card-body">
                 <div class="table-responsive">
-                  <table
-                    class="table table-bordered"
-                    id="dataTable"
-                    width="100%"
-                    cellspacing="0"
-                  >
+                  <table class="table table-bordered" id="dataTable">
                     <thead>
                       <tr>
-                        <th>Name</th>
-                        <th>Position</th>
-                        <th>Office</th>
-                        <th>Age</th>
-                        <th>Start date</th>
-                        <th>Salary</th>
+                        <th id="name">Name</th>
+                        <th id="position">Position</th>
+                        <th id="office">Office</th>
+                        <th id="age">Age</th>
+                        <th id="startAge">Start date</th>
+                        <th id="salary">Salary</th>
                       </tr>
                     </thead>
                     <tfoot>
                       <tr>
-                        <th>Name</th>
-                        <th>Position</th>
-                        <th>Office</th>
-                        <th>Age</th>
-                        <th>Start date</th>
-                        <th>Salary</th>
+                        <th id="name">Name</th>
+                        <th id="position">Position</th>
+                        <th id="office">Office</th>
+                        <th id="age">Age</th>
+                        <th id="startAge">Start dat</th>
+                        <th id="salary">Salary</th>
                       </tr>
                     </tfoot>
                     <tbody>
